@@ -59,7 +59,6 @@ namespace PropagacjaWstecznaJT.UserControls
             double layerSpacing = 180;
             double verticalSpacing = 100;
             double marginLeft = 60;
-            double marginTop = 40;
 
             var layers = xorNetwork.GetLayers();
             var layerPositions = new List<List<Point>>();
