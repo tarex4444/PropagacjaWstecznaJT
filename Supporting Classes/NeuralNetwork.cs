@@ -76,5 +76,9 @@ namespace PropagacjaWstecznaJT.Supporting_Classes
                 }
             }
         }
+        public List<Layer> GetLayers()
+        {
+            return Layers;
+        }
     }
 }
