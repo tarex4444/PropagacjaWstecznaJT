@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="PropagacjaWstecznaJT.UserControls.Task1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PropagacjaWstecznaJT.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Wejścia XOR:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <TextBox x:Name="Input1" Width="50" Margin="5"/>
+                <TextBox x:Name="Input2" Width="50" Margin="5"/>
+            </StackPanel>
+            <Button Content="Uruchom sieć" Click="RunNetwork" Margin="5"/>
+            <TextBlock x:Name="OutputText" Margin="5" FontSize="16"/>
+            <!-- Można tu dodać Canvas dla wizualizacji neuronów i wag -->
+        </StackPanel>
+    </Grid>
+</UserControl>
