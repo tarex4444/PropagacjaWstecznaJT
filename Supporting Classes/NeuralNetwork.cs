@@ -74,7 +74,7 @@ namespace PropagacjaWstecznaJT.Supporting_Classes
                         neuron.Weights[w] += Mu * neuron.Delta * inputs[w];
                     neuron.Bias += Mu * neuron.Delta;
                 }
-            }
+            }//
         }
         public List<Layer> GetLayers()
         {
